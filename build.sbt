@@ -1,9 +1,9 @@
 lazy val CUexecutor = (project in file("."))
   .settings(
     name    := "CUDA executor",
-    scalaVersion := "3.0.0",
+    scalaVersion := "3.1.2",
     version := "0.6.2",
-    libraryDependencies += "junit" % "junit" % "4.11",
+    libraryDependencies += "junit" % "junit" % "4.13.2",
 
     compileOrder := CompileOrder.JavaThenScala,
 
